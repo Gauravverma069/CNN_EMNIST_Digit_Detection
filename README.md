@@ -6,9 +6,8 @@ This repository contains a project for digit and character recognition using the
 1. [Introduction](#introduction)
 2. [Dataset](#dataset)
 3. [Model Architecture](#model-architecture)
-4. [Dependencies](#dependencies)
-5. [Results](#results)
-
+4. [Results](#results)
+5. [Dependencies](#dependencies)
 
 ## Introduction
 
@@ -48,13 +47,15 @@ Make sure to install the following dependencies to run the project:
 - OpenCV (for image preprocessing)
 - Scikit-learn
 
+## Results
+
+The model achieves the following accuracy on the EMNIST Balanced dataset:
+
+Training Accuracy: ~100%
+Validation Accuracy: ~99.5%
+
 Install these dependencies using `pip`:
 
 ```bash
 pip install tensorflow keras numpy matplotlib opencv-python scikit-learn
 
-Results
-The model achieves the following accuracy on the EMNIST Balanced dataset:
-
-Training Accuracy: ~100%
-Validation Accuracy: ~99.5%
